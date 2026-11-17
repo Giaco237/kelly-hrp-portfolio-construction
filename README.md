@@ -3,6 +3,7 @@
 How much do machine-learning techniques improve a Kelly-based equity portfolio once the backtest is done properly? This project builds the Kelly-optimal portfolio on ten US large caps, then tests four enhancements: a concentration cap, Marchenko-Pastur denoising, detoning and Hierarchical Risk Parity. Everything is estimated on 21 months of data and evaluated out of sample, with purged cross-validation and a Deflated Sharpe Ratio to check that the results are not an artefact of one lucky split.
 
 **Universe:** AAPL, MSFT, GOOGL, AMZN, NVDA, META, JPM, JNJ, V, XOM
+
 **Training window:** Jan 2024 to Sep 2025 (437 sessions) | **Test window:** Q4 2025 (64 sessions)
 
 ## Key findings
